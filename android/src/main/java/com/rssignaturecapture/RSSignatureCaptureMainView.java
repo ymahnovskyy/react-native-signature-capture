@@ -91,7 +91,7 @@ public class RSSignatureCaptureMainView extends LinearLayout implements OnClickL
   public void setMaxSize(int size) {
     this.maxSize = size;
   }
-  
+
   public void setFileName(String fileName){
     this.fileName = fileName;
   }
