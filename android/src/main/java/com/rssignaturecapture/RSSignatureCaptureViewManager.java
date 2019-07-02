@@ -107,14 +107,6 @@ public class RSSignatureCaptureViewManager extends ViewGroupManager<RSSignatureC
 			view.getSignatureView().setBackgroundColor(Color.parseColor(color));
 		}
 	}
-	
-	@ReactProp(name = PROPS_FILE_NAME)
-	public void setPropsFileName(RSSignatureCaptureMainView view, @Nullable String fileName){
-		Log.d("fileName:",  ""+fileName);
-		if(view!=null){
-			view.setFileName(fileName);
-		}
-	}
 
 	@ReactProp(name = PROPS_FILE_NAME)
 	public void setPropsFileName(RSSignatureCaptureMainView view, @Nullable String fileName){
